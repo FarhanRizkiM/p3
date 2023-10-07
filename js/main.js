@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         namaElement.textContent = userData.Nama;
         kelasElement.textContent = userData.Kelas;
         emailElement.textContent = userData.Email;
+        
     } catch (error) {
         console.error('Error:', error);
     }
