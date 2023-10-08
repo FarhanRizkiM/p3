@@ -58,9 +58,23 @@
             <div class="container">
                 <div class="columns">
                   <div class="column is-8 is-offset-2">
-                    <figure class="image is-16by9">
-                      <img src="../assets/images/first-post.png" alt="">
-                    </figure>
+                    <div class="card-content">
+                        <div class="content">
+                          <h4>Infografis</h4>
+                          <p>PAKARBI.</p>
+                          <span class="button is-dark modal-button" data-target="modal-image2">Image modal</span>
+                        </div>
+                      </div>
+                      <!-- Image modal -->
+                    <div id="modal-image2" class="modal modal-fx-3dSlit">
+                        <div class="modal-background"></div>
+                            <div class="modal-content is-huge is-image">
+                                <!-- content -->
+                                <img src="" alt="image">
+                                <!-- end content -->
+                            </div>
+                                <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
                   </div>
                 </div>
             
@@ -69,9 +83,17 @@
                     <div class="column is-8 is-offset-2">
                       <div class="content is-medium">
                         <h2 class="subtitle is-4" id="current-date"></h2>
-                        <h1 class="title">JUDUL</h1>
-                        <p>ISI</p>
+                        <h1 class="title" id="judul">judul</h1>
+                        <p id="deskripsi">Deskripsi</p>
                       </div>
+                      <p class="control">
+                          <a class="button is-dark" href="">
+                              <span class="icon">
+                                <i class="fa-solid fa-download" style="color: red;"></i>
+                              </span>
+                              <span>Download</span>
+                          </a>
+                      </p>
                     </div>
                   </div>
                 </section>
@@ -95,6 +117,8 @@
 
 <!-- pemanggilan format js -->
     <script type="module" src="../js/current-date.js"></script>
+    <script type="module" src="../js/proposal.js"></script>
+    <script type="module" src="../js/proposal.js"></script>
 </body>
 
 </html>
